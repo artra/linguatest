@@ -164,9 +164,7 @@ else
 		<form id="shareLinkForm">
 			<div class="b-error">Такого пользователя не существует</div>
 			<input id="shareLinkId" type="hidden" name="link_id" value="">
-			<div id="editLinkName"></div>
-			<div id="editLinkHref"></div>
-			<div><input type="text" id="editLinkHref" name="user_name" placeholder="Имя пользователя"></div>
+			<div><input type="text" name="user_name" placeholder="Имя пользователя"></div>
 			<div class="u-clearfix"><input type="submit" value="Поделиться"></div>
 		</form>
 	</div>
